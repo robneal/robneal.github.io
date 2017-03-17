@@ -4,7 +4,7 @@
 
 ### Author(s): Robert Neal 
 
-### Description: Thsi is a simple template that can be used to start a project.  
+### Description: This is a simple template I use to start a project.  
 
 #### Project Status : In Progress
 
