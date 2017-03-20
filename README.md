@@ -4,8 +4,8 @@
 
 ### Author(s): Robert Neal 
 
-### Description: This is a simple template I use to start a project.  
+### Description: This is a base template I use to start a project.  
 
-#### Project Status : In Progress
+#### Project Status : In Progress - Rebuilding
 
 #### GitHub Pages Link - https://robneal.github.io/
