@@ -5,7 +5,7 @@ $(document).ready(function(){
     console.log("js is (t)werking");
     $('#typedJS').typed({
       strings: [
-      "Hey there stanger!",
+      "Hey there stranger!",
       //"I'm robert.",
       "I'm re-building this site ...",
       "but stalk me below.",
