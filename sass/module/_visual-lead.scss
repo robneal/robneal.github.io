@@ -1,0 +1,85 @@
+.visual-lead{
+	min-height:calc(100vh); 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+	&__heading-group{
+		margin-right:auto;
+		margin-left:auto;
+		max-width: $sm-breakpoint; 
+
+		@include at-media-breakpoint($md-breakpoint) {
+    		max-width: 620px; 
+    	}
+	}
+
+	&__title{
+	    color: #fff; //white
+
+	    font-size: 42px;
+	    font-weight: 600;
+	    line-height: 1em;
+	    text-transform: uppercase;
+	    letter-spacing: .01em;
+	    font-style: normal;
+	    text-rendering: optimizeLegibility;
+
+	    margin-top: 0;
+    	margin-bottom: 10px;
+
+    	@include at-media-breakpoint(400px) {
+    		font-size: 55px;
+    	}
+    	@include at-media-breakpoint(600px) {
+    		font-size: 72px;
+    	}
+    	@include at-media-breakpoint($md-breakpoint) {
+    		font-size: 94px;
+    	}
+	}
+
+	&__subtitle{
+		font-size:14px;
+	   	line-height: 1.4em;
+	    text-transform: none;
+	    letter-spacing: .04em;
+	    font-weight: 400;
+	    font-style: italic;
+    	color: #fff;
+    	text-rendering: optimizeLegibility;
+    	margin-top: 0;
+    	margin-bottom: 10px;
+
+    	@include at-media-breakpoint(600px) {
+    		font-size: 18px;
+    		margin-bottom:15px; 
+    	}    	
+	}
+
+	&__typed-js{
+		font-size:16px;
+		line-height: 1em;
+	    text-transform: uppercase;
+	    letter-spacing: .14em;
+	    font-weight: 600;
+	    font-style: normal;
+	    text-rendering: optimizeLegibility;
+	    //color: #fff;
+	    margin-top: 0;
+    	margin-bottom: 30px;
+
+    	&__text{
+    		color:$portfolio-blue;
+    		text-decoration: underline;
+    	}
+    	@include at-media-breakpoint(600px) {
+    		font-size: 22px;
+    		margin-bottom:30px;
+    	}  
+	}
+
+	& .btn{
+
+	}
+}

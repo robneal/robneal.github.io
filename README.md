@@ -2,10 +2,12 @@
 
 ---
 
-### Author(s): Robert Neal 
+Author(s): Robert Neal 
 
-### Description: This is a base template I use to start a project.  
+Description: Portfolio website to showcase some of my work, provide a resume and give several ways to get in touch with me. 
 
-#### Project Status : In Progress - Rebuilding
+Project Status : In Development
 
-#### GitHub Pages Link - https://robneal.github.io/
+GitHub Pages Link - https://robneal.github.io/
+
+Webiste - http://robneal.me/

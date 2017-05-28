@@ -1,21 +1,22 @@
 $(document).ready(function(){
-  $('.nojs').hide(); 
+  	console.log("js is twerking : )");
+  	
+  	$('.no-js').hide(); 
 
-  $(function() {
-    console.log("js is (t)werking");
-    $('#typedJS').typed({
-      strings: [
-      "Hey there stranger!",
-      //"I'm robert.",
-      "I'm re-building this site ...",
-      "but stalk me below.",
-      "Robert Neal"
-      ],
-      typeSpeed: 60,
-      backSpeed: 30,
-      backDelay: 1400,
-      loop: true,
-    });
-  }); 
+  	$(function() {
+    	$('#typedJS').typed({
+      
+	      	strings: [
+	      		"Build responsive, mobile first websites.",
+	    		"Write resuable, modular, and object-oriented code.",
+	    		//"Read two books a month."
+	      	],
+	      
+	    	typeSpeed: 60,
+	      	backSpeed: 30,
+	      	backDelay: 1400,
+	      	loop: true,
+	    });
+  	}); 
 
 });

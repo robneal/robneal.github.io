@@ -3,12 +3,9 @@
 // ---------------------------------------------------------------------------//
 
 //Core Partials
-@import "normalize";
-@import "variables";
-@import "mixins";
-@import "mixins";
-
-@import "base";
+@import "base/base";
+@import "module/module";
+@import "shame";
 
 
 

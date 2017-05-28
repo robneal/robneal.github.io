@@ -1,0 +1,13 @@
+.wrapper{
+	margin: 0 auto; 
+	padding: 0px 1rem;
+	max-width: $lg-breakpoint; 
+
+	@include at-media-breakpoint($md-breakpoint) {
+		padding: 0px 1.5rem;
+ 	} 
+	
+	@include at-media-breakpoint($lg-breakpoint) {
+		padding: 0px 2rem;
+ 	}
+}
