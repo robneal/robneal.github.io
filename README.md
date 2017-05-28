@@ -1,4 +1,4 @@
-# Project Title 
+# Portfolio Website 
 
 ---
 
@@ -10,4 +10,4 @@ Project Status : In Development
 
 GitHub Pages Link - https://robneal.github.io/
 
-Webiste - http://robneal.me/
+Website - http://robneal.me/

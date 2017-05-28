@@ -13,8 +13,8 @@ $(document).ready(function(){
 	      	],
 	      
 	    	typeSpeed: 60,
-	      	backSpeed: 30,
-	      	backDelay: 1400,
+	      	backSpeed: 60,
+	      	backDelay: 1600,
 	      	loop: true,
 	    });
   	}); 
