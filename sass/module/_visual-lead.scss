@@ -1,5 +1,5 @@
 .visual-lead{
-	min-height:calc(100vh); 
+	min-height:calc(110vh); 
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -49,16 +49,16 @@
     	color: #fff;
     	text-rendering: optimizeLegibility;
     	margin-top: 0;
-    	margin-bottom: 10px;
+    	margin-bottom: 20px;
 
     	@include at-media-breakpoint(600px) {
     		font-size: 18px;
-    		margin-bottom:15px; 
+    		margin-bottom:45px; 
     	}    	
 	}
 
 	&__typed-js{
-		font-size:16px;
+		font-size:22px;
 		line-height: 1em;
 	    text-transform: uppercase;
 	    letter-spacing: .14em;
@@ -74,12 +74,12 @@
     		text-decoration: underline;
     	}
     	@include at-media-breakpoint(600px) {
-    		font-size: 22px;
+    		font-size: 32px;
     		margin-bottom:30px;
     	}  
 	}
 
-	& .btn{
-
+	& .wrapper{
+		position: relative;
 	}
 }

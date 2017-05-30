@@ -2,7 +2,8 @@
 	display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-top:45px; 
+    margin-top:45px;
+    margin-left: 10px; 
 
     @include at-media-breakpoint($sm-breakpoint) {
     	margin-top:60px;

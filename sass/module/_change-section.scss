@@ -1,0 +1,165 @@
+.change-section{
+	max-width:200px;
+	margin-right: auto;
+	margin-left: auto;
+
+	&__up{
+		display: block;
+		position: relative;
+		//bottom: -100px;  // comment out this until I add the booklist section
+		text-align:center;
+		margin-top:20px;
+	}
+	&__down{
+		display: block;
+		position: relative;
+		bottom: -60px;
+		text-align:center;
+		margin-top: 45px;
+
+		&__animation{
+			display: block;
+			cursor: pointer;
+    		touch-action: manipulation;
+    		-ms-touch-action: manipulation;
+			font-size:26px;
+			margin-top:32px;
+			color:white;
+			animation: bouncing 1.25s infinite ease-in-out;
+    		position: relative;
+    	}
+	}
+
+	&__arrow{
+		display: block;
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+
+		&--big{
+			height: 26px;
+			width:26px;
+		}
+		&--small{
+			height: 16px;
+			width: 16px; 
+		}
+
+		//UP ARROW RULES 
+		&__up--blue{
+		    background-image: url('../img/icons/arrow-up--blue.svg');
+		    background-repeat: no-repeat;
+		    background-size: contain;
+
+		    &:hover{
+		    	background-image: url('../img/icons/arrow-up.svg');
+		    }
+		}
+		&__up--white{
+		    background-image: url('../img/icons/arrow-up--white.svg');
+		    background-repeat: no-repeat;
+		    background-size: contain;
+
+		    &:hover{
+		    	background-image: url('../img/icons/arrow-up--blue.svg');
+		    }
+		}
+		&__up--black{
+		    background-image: url('../img/icons/arrow-up.svg');
+		    background-repeat: no-repeat;
+		    background-size: contain;
+
+		    &:hover{
+		    	background-image: url('../img/icons/arrow-up--blue.svg');
+		    }
+		}	
+		
+		// DOWN ARROW RULES 
+		&__down--blue{
+		    background-image: url('../img/icons/arrow-down--blue.svg');
+		    background-repeat: no-repeat;
+		    background-size: contain;
+
+		    &:hover{
+		    	background-image: url('../img/icons/arrow-down.svg');
+		    }
+		}
+		&__down--white{
+		    background-image: url('../img/icons/arrow-down--white.svg');
+		    background-repeat: no-repeat;
+		    background-size: contain;
+
+		    &:hover{
+		    	background-image: url('../img/icons/arrow-down--blue.svg');
+		    }
+		}
+		&__down--black{
+		    background-image: url('../img/icons/arrow-down.svg');
+		    background-repeat: no-repeat;
+		    background-size: contain;
+
+		    &:hover{
+		    	background-image: url('../img/icons/arrow-down--blue.svg');
+		    }
+		}			
+	}
+	
+	&__text{
+		&--big{
+			font-size:26px;
+			padding-bottom: 20px; 
+		}
+
+		&--small{
+			font-size:16px;
+			padding-bottom: 0px; 
+		}
+
+
+		&--blue{
+			color:$portfolio-blue;
+			&:hover{
+				color:$portfolio-brown; 
+			}
+		}
+		&--white{
+			color:white;
+			&:hover{
+				color:$portfolio-blue; 
+			}
+		}
+		&--brown{
+			color:$portfolio-brown;
+			&:hover{
+				color:$portfolio-blue; 
+			}
+		}				
+	}
+
+	// &__down{
+	// 	position: relative;
+	// 	bottom: -60px;
+	// 	text-align:center;
+	// 	margin-top: 45px;
+
+	// 	&__down-arrow{
+	// 		cursor: pointer;
+ //    		touch-action: manipulation;
+ //    		-ms-touch-action: manipulation;
+	// 		font-size:26px;
+	// 		color:white;
+	// 		animation: bouncing 1.25s infinite ease-in-out;
+ //    		position: relative;
+
+	// 		&:hover{
+	// 			color:$portfolio-blue;
+	// 		}
+
+	// 		&--brown{
+	// 			color: $portfolio-brown; 
+	// 		}
+	// 	}
+	// }
+
+
+}

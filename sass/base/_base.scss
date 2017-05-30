@@ -21,6 +21,9 @@ body {
 a{
 	color:$base-link-color;
 	text-decoration: none;
+	cursor: pointer;
+   	touch-action: manipulation;
+   	-ms-touch-action: manipulation;
 	&:hover{
 		color:$base-hover-color;  
 	}

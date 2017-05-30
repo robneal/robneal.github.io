@@ -1,8 +1,9 @@
-$(document).ready(function(){
+jQuery(document).ready(function($){
   	console.log("js is twerking : )");
   	
   	$('.no-js').hide(); 
 
+  	// Typed Js
   	$(function() {
     	$('#typedJS').typed({
       
@@ -18,5 +19,24 @@ $(document).ready(function(){
 	      	loop: true,
 	    });
   	}); 
+
+  	// Smooth Scrolling -- excuse my spagetti code
+	$(function() {
+	  $('a[href*="#"]:not([href="#"])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html, body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	}); 
+
+
+
 
 });
