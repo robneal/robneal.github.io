@@ -16,7 +16,7 @@
 
 	&__title{
 	    color: #fff; //white
-
+	    text-align: center;
 	    font-size: 42px;
 	    font-weight: 600;
 	    line-height: 1em;
@@ -41,6 +41,7 @@
 
 	&__subtitle{
 		font-size:14px;
+		text-align: center;
 	   	line-height: 1.4em;
 	    text-transform: none;
 	    letter-spacing: .04em;
@@ -58,7 +59,8 @@
 	}
 
 	&__typed-js{
-		font-size:22px;
+		text-align: center;
+		font-size:28px;
 		line-height: 1em;
 	    text-transform: uppercase;
 	    letter-spacing: .14em;
@@ -67,7 +69,7 @@
 	    text-rendering: optimizeLegibility;
 	    //color: #fff;
 	    margin-top: 0;
-    	margin-bottom: 30px;
+    	margin-bottom: 60px;
 
     	&__text{
     		color:$portfolio-blue;
@@ -75,11 +77,20 @@
     	}
     	@include at-media-breakpoint(600px) {
     		font-size: 32px;
-    		margin-bottom:30px;
+    		margin-bottom:80px;
     	}  
 	}
 
 	& .wrapper{
 		position: relative;
+	}
+
+	& .btn{
+		@include at-media-breakpoint(400px) {
+			width:80%;
+		}
+		@include at-media-breakpoint(600px) {
+			width:70%;
+		}
 	}
 }
