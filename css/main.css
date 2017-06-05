@@ -853,7 +853,6 @@ a {
     font-size: 11px;
     border: 0;
     height: 35px;
-    /* text-align: center; */
     min-width: 1px;
     min-height: 1px; }
     .project__button:hover {
