@@ -10,7 +10,8 @@ jQuery(document).ready(function($){
 	      	strings: [
 	      		"Build responsive, mobile first websites.",
 	    		"Write resuable, modular, object-oriented code.",
-	    		"love learning and read 2 books a month."
+	    		"help startups develop thier web or mobile products.",
+	    		"have a curios mind and devour atleast 2 books a month."
 	      	],
 	      
 	    	typeSpeed: 60,

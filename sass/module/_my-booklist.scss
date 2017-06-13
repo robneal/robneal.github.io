@@ -1,0 +1,31 @@
+.my-booklist__group{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    @include at-media-breakpoint(660px) {
+    	justify-content: flex-start;
+    }
+}
+
+.my-booklist{
+	&__book-item{
+	    margin: 10px 20px 40px 10px;
+	    max-width: 180px;
+	    height: 445px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: space-between;
+
+		&__image{
+			width:100%;
+			height:270px;
+		}
+
+		&__title{
+			text-align: center;
+			padding: 10px 0; 
+			font-size: .8em;
+			text-transform: uppercase;
+		}
+	}
+}

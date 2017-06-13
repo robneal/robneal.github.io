@@ -6,9 +6,12 @@
 	&__up{
 		display: block;
 		position: relative;
-		//bottom: -100px;  // comment out this until I add the booklist section
 		text-align:center;
 		margin-top:20px;
+
+		&--lowered{
+			bottom: -100px;  // comment out this until I add the booklist section
+		}
 	}
 	&__down{
 		display: block;

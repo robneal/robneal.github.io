@@ -557,6 +557,10 @@ a {
   transition: color 100ms ease-in, border-color 100ms ease-in; }
   .btn--large {
     max-width: 100%; }
+  .btn--brown-text {
+    color: #312D32; }
+    .btn--brown-text:hover {
+      color: #7EB0AF; }
 
 .seperator__short {
   width: 90px;
@@ -592,6 +596,8 @@ a {
     position: relative;
     text-align: center;
     margin-top: 20px; }
+    .change-section__up--lowered {
+      bottom: -100px; }
   .change-section__down {
     display: block;
     position: relative;
@@ -868,6 +874,30 @@ a {
       text-transform: uppercase; }
     .project__button:last-of-type {
       margin-right: 0; }
+
+.my-booklist__group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  @media (min-width: 660px) {
+    .my-booklist__group {
+      justify-content: flex-start; } }
+
+.my-booklist__book-item {
+  margin: 10px 20px 40px 10px;
+  max-width: 180px;
+  height: 445px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .my-booklist__book-item__image {
+    width: 100%;
+    height: 270px; }
+  .my-booklist__book-item__title {
+    text-align: center;
+    padding: 10px 0;
+    font-size: .8em;
+    text-transform: uppercase; }
 
 .hide-me {
   display: none; }
