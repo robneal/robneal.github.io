@@ -9,9 +9,9 @@ jQuery(document).ready(function($){
       
 	      	strings: [
 	      		"Build responsive, mobile first websites.",
-	    		"Write resuable, modular, object-oriented code.",
-	    		"help startups develop thier web or mobile products.",
-	    		"have a curios mind and devour atleast 2 books a month."
+	    		"Write reusable, modular, object-oriented code.",
+	    		"help startups develop their web or mobile products.",
+	    		"have a curious mind and devour at least 2 books a month."
 	      	],
 	      
 	    	typeSpeed: 60,
@@ -21,7 +21,7 @@ jQuery(document).ready(function($){
 	    });
   	}); 
 
-  	// Smooth Scrolling -- excuse my spagetti code
+  	// Smooth Scrolling -- excuse my spaghetti code
 	$(function() {
 	  $('a[href*="#"]:not([href="#"])').click(function() {
 	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {

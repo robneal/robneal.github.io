@@ -886,7 +886,7 @@ a {
 .my-booklist__book-item {
   margin: 10px 20px 40px 10px;
   max-width: 180px;
-  height: 445px;
+  height: 462px;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
