@@ -8,10 +8,11 @@ jQuery(document).ready(function($){
     	$('#typedJS').typed({
       
 	      	strings: [
-	      		"Build responsive, mobile first websites.",
-	    		"Write reusable, modular, object-oriented code.",
-	    		"help startups develop their web or mobile products.",
-	    		"have a curious mind and devour at least 2 books a month."
+	      		"build compelling digital experiences.",
+	      		"create responsive, mobile first websites.",
+	    		"write reusable, modular, object-oriented code.",
+	    		"develop digital strategies for growing brands.",
+	    		"read two books a month."
 	      	],
 	      
 	    	typeSpeed: 60,
